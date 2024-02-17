@@ -3,8 +3,8 @@ export default function CategoryGroup() {
         width:'60rem',
     }
     return (
-        <div id="buttonToTitle" class="d-flex justify-content-center">
-            <div class="row text-center mx-3 fs-3 gx-3" style={categoryWidth}>
+        <div id="buttonToTitle" className="d-flex justify-content-center">
+            <div className="row text-center mx-3 fs-3 gx-3" style={categoryWidth}>
                 <Category/>
             </div>
         </div>
