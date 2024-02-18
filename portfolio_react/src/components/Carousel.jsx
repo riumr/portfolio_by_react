@@ -15,14 +15,14 @@ export default function Carousel (props) {
         color:'black',
     }
 
-    const carouselHandler = (prevOrNext,target,imgSrc) =>{
+    const carouselHandler = (prevOrNext,target,imgSrc) => (
         <button className={`carousel-control-${prevOrNext}`} type="button" data-bs-target={target} data-bs-slide={`${prevOrNext}`}>
             <span className={`carousel-control-${prevOrNext}-icon`} aria-hidden="true" style={carouselButtonStyle}>
                 <img src={imgSrc} alt="..."/>
             </span>
             <span className="visually-hidden">{prevOrNext}</span>
         </button>
-    }
+    )
     
     const carouselImg = (sourceList) => (
         <div className="carousel-inner">
