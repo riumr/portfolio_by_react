@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'NanumGothicBold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#skills>div>div>div>div {
+  transition: transform 0.5s ease;
+}
+
+#skills>div>div>div>div:hover {
+  transform: translate(0, -2.7px);
+}
+
+
+#buttonToTitle>div>div:hover {
+  background-color: rgb(230, 229, 229);
+}
+
+#pageUpButton {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 10rem;
+}
+
+#projects>div>div>div>div>div {
+  box-shadow: 0px 0px 7px 2px #EDEDED;
+}
