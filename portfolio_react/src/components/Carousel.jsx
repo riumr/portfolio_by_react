@@ -1,11 +1,6 @@
 export default function Carousel (props) {
     const carouselId = props.carouselId
-    const imgSource = [
-        "images/projects/react-spa/react-spa-project.png",
-        "images/projects/java-chip/javachip_item.jpg",
-        "images/projects/java-chip/javachip_bucket.jpg",
-        "images/projects/java-chip/javachip_bucket.gif",
-    ]
+    const imgSource = props.carouselImg
     const carouselBoxSize = {
         width:'460px',
         height:'230px',
@@ -27,7 +22,7 @@ export default function Carousel (props) {
     const carouselImg = (sourceList) => (
         <div className="carousel-inner">
             <div className="carousel-item">
-                {sourceList.map((index,source)=>(
+                {sourceList.map((source,index)=>(
                     <img key={index} src={source} className="d-block w-100" alt="..."/>
                 ))}
             </div>
