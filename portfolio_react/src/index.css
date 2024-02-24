@@ -13,8 +13,7 @@ body {
   transform: translate(0, -2.7px);
 }
 
-
-#buttonToTitle>div>div:hover {
+#buttonToTitle>div>div>div:hover {
   background-color: rgb(230, 229, 229);
 }
 
