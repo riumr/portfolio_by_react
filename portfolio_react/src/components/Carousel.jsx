@@ -22,7 +22,7 @@ export default function Carousel (props) {
     const carouselImg = (sourceList) => (
         <div className="carousel-inner">
             <div className="carousel-item">
-                {sourceList.map((source,index)=>(
+                {Object.values(sourceList).map((source,index)=>(
                     <img key={index} src={source} className="d-block w-100" alt="..."/>
                 ))}
             </div>
