@@ -2,8 +2,7 @@ export default function ContentBox (props) {
     const title = props.title
     const link = props.link
     const contentAbout = props.contentAbout
-    // contentAbout => props.contentFile.description으로 교체
-    const stackContent = ['React','supabse','Firebase','Figma']
+    const stackContent = props.stackContent
     const description = Object.values(contentAbout).map((content,index)=>(
         <div key={index}>{content}</div>
     ))

@@ -13,3 +13,23 @@ export const djangoPjtContent = [
     '∙ REST API 사용 장바구니 기능 구현',
     '∙ 참고 페이지에서 상품 정보 및 이미지 크롤링, DB에 저장',
 ]
+
+export const profilePjtContent = [
+    '인원 : 1명',
+    '역할 : 프론트엔드 템플릿 구현 및 내용 구성',
+    '∙ Javascript를 사용하지 않은 프로젝트'
+]
+
+export const textPjtContent = [
+    '소요기간 : 3개월 | 인원 : 1명',
+    '역할 : 기획∙분석∙보고서 작성',
+    '∙ 텍스트 데이터 기간별∙카테고리별 분류'
+]
+
+export const spaPjtStack = ['React','supabse','Firebase','Figma']
+
+export const djangoPjtStack = ['HTML','CSS','bootstrap','Django','SQLite','postgres','Figma','Discord','Notion','AWS EC2']
+
+export const profilePjtStack = ['HTML','CSS','bootstrap','Figma','Github page']
+
+export const textPjtStack = ['python','Google colab','Tableu']
