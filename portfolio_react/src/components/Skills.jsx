@@ -2,24 +2,10 @@ export default function Skills(){
     return (
         <div id="skills" className="my-5">
             <div className="container">
-                <h2 className="fs-1 fw-bold mt-5">SKILLS</h2>
-                <div className="d-flex">
-                    <SkillCategory/>
+                <h2 className="fs-1 fw-bold mt-5 mb-4">SKILLS</h2>
                     <SkillStacks/>
-                </div>
             </div>
         </div>
-    )
-}
-
-const SkillCategory = () => {
-    const skillCategoryGroup = ['Frontend','Backend','Deployment','Cooperation','Communication']
-    const categoryStyle = {margin:'15px 0 0 0'}
-    const skillCategory = skillCategoryGroup.map((name,index) => (
-        <div key={index} className="fw-bold fs-5" style={categoryStyle}>{name}</div>
-    ))
-    return (
-        <div className="d-block">{skillCategory}</div>
     )
 }
 
@@ -30,24 +16,25 @@ const SkillStacks = () => {
     const cooperationStack = ['Git','Github']
     const communicationStack = ['Figma','Slack','Notion','Discord']
 
-    const stack = (id,stackList,stackStyle) => (
-        <div id={id} style={stackStyle}>
-            {stackList.map((stack,index)=>(
-                <span key={index} className="p-1 ms-1 border rounded bg-secondary bg-opacity-10">{stack}</span>
-            ))}
+    const stack = (id,stackCategory,stackList) => (
+        <div className="row">
+            <div className="col-4 fw-bold fs-4 mb-3">{stackCategory}</div>
+            <div className='col-8' id={id}>
+                {stackList.map((stack,index)=>(
+                    <span key={index} className="fs-4 p-1 ms-1 border rounded bg-secondary bg-opacity-10">{stack}</span>
+                ))}
+            </div>
         </div>
     )
-    
-    const stackStyle = {margin:'20px 0 0 0'}
 
-    const frontend = stack("frontend",frontendStack,stackStyle)
-    const backend = stack("backend",backendStack,stackStyle)
-    const deployment = stack("deployment",deploymentStack,stackStyle)
-    const cooperation = stack("cooperation",cooperationStack,stackStyle)
-    const communication = stack("communication",communicationStack,stackStyle)
+    const frontend = stack("frontend",'Frontend',frontendStack)
+    const backend = stack("backend",'Backend',backendStack)
+    const deployment = stack("deployment",'Deployment',deploymentStack)
+    const cooperation = stack("cooperation",'Cooperation',cooperationStack)
+    const communication = stack("communication",'Communication',communicationStack)
 
     return (
-        <div className="ms-5">
+        <div>
             {frontend}
             {backend}
             {deployment}
