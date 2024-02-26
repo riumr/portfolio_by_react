@@ -1,13 +1,4 @@
 export default function Footer () {
-    const contactStyle = {
-        width:'50vw',
-    }
-    const emailStyle = {
-        paddingLeft:'6rem',
-    }
-    const phoneStyle = {
-        paddingLeft:'5.5rem',
-    }
     const referenceLink = {
         width:'100vw',
     }
@@ -16,14 +7,20 @@ export default function Footer () {
     }
     return (
         <div>
-            <div id="contact" className="d-flex justify-content-center my-5 pb-5">
-            <div>
-                <h2 className="fs-1 fw-bold mt-5 pb-3">CONTACT</h2>
-                <div className="fs-5" style={contactStyle}>
-                    <p>Email<span style={emailStyle}>signs-thumbed-0u@icloud.com</span></p>
-                    <p>Phone<span style={phoneStyle}>010 7498 1124</span></p>
+            <div id="contact" className="my-5 ms-3 pb-5">
+                <div className="container">
+                    <h2 className="fs-1 fw-bold mt-5 pb-3">CONTACT</h2>
+                    <div className="fs-5">
+                        <div className="row">
+                            <div className="col-2 fw-bold">Email</div>
+                            <div className="col-10">signs-thumbed-0u@icloud.com</div>
+                        </div>
+                        <div className="row mt-2">
+                            <div className="col-2 fw-bold">Phone</div>
+                            <div className="col-10">010 7498 1124</div>
+                        </div>
+                    </div>
                 </div>
-            </div>
             </div>
             <div id="github" className="d-flex flex-column justify-content-center align-items-center py-5 bg-light fs-5" style={referenceLink}>
                 <p>
