@@ -17,7 +17,8 @@ export default function Projects() {
                             projectName="Personal Project" carouselId="" carouselImg={spaPjtImg}
                             contentTitle="SPA 게시판" contentAbout={spaPjtContent} stackContent={spaPjtStack} contentLink=""
                         />
-                        <CollapseBox boxId="spa" boxImgSrc="../contents/images/spaCollapseImg.png"/>
+                        <CollapseBox boxId="spa" boxImgSrc={spaPjtImg}/>
+
                     </div>
                     {/* Team Project */}
                     <div className="pt-3">
