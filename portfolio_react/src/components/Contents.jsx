@@ -26,9 +26,9 @@ export const textPjtContent = [
     '∙ 텍스트 데이터 기간별∙카테고리별 분류'
 ]
 
-export const spaPjtStack = ['React','supabse','Firebase','Figma']
+export const spaPjtStack = ['React','supabase','Firebase','Figma']
 
-export const djangoPjtStack = ['HTML','CSS','bootstrap','Django','SQLite','postgres','Figma','Discord','Notion','AWS EC2']
+export const djangoPjtStack = ['HTML','CSS','bootstrap','Django','SQLite','postgresql','Figma','Discord','Notion','AWS EC2']
 
 export const profilePjtStack = ['HTML','CSS','bootstrap','Figma','Github page']
 
