@@ -1,4 +1,6 @@
 body {
+  width:100%;
+  padding:0;
   margin: 0;
   font-family: 'NanumGothicBold';
   -webkit-font-smoothing: antialiased;
