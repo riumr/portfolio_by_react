@@ -17,11 +17,11 @@ const SkillStacks = () => {
     const communicationStack = ['Figma','Slack','Notion','Discord']
 
     const stack = (id,stackCategory,stackList) => (
-        <div className="row">
-            <div className="col-4 fw-bold fs-4 mb-3">{stackCategory}</div>
-            <div className='col-8' id={id}>
+        <div className="d-flex flex-wrap mt-4">
+            <div className="fw-bold fs-4 mb-1">{stackCategory}</div>
+            <div className="d-flex flex-wrap ms-1 ms-lg-5" id={id}>
                 {stackList.map((stack,index)=>(
-                    <span key={index} className="fs-4 p-1 ms-1 border rounded bg-secondary bg-opacity-10">{stack}</span>
+                    <div key={index} className="px-2 py-1 ms-1 mt-lg-0 mt-1 border rounded bg-secondary bg-opacity-10">{stack}</div>
                 ))}
             </div>
         </div>
