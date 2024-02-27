@@ -7,11 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#skills>div>div>div>div {
+#skills>div>div>div>div>div {
   transition: transform 0.5s ease;
+  height:37px;
 }
 
-#skills>div>div>div>div:hover {
+#skills>div>div>div>div>div:hover {
   transform: translate(0, -2.7px);
 }
 
