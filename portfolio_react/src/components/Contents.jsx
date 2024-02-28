@@ -1,9 +1,9 @@
 export const spaPjtContent = [
     '소요기간 : 4주 | 인원 : 1명',
     '역할 : 프론트엔드 기능 및 레이아웃 개발',
-    'supabase를 사용해 DB crud 구현',
-    'react useEffect, useState hook을 사용해 SPA 게시판 구현',
-    'firebase hosting을 사용해 배포',
+    '∙ supabase를 사용해 DB crud 구현',
+    '∙ react useEffect, useState hook을 사용해 SPA 게시판 구현',
+    '∙ firebase hosting을 사용해 배포',
 ]
 
 export const djangoPjtContent = [
