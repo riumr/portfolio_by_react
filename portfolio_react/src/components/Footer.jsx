@@ -17,7 +17,7 @@ export default function Footer () {
             </div>
             <div id="github" className="d-flex flex-column justify-content-center align-items-center py-5 bg-light fs-5" style={referenceLink}>
                 <p>
-                    <img src="images/etc/github-logo.png" alt="github-logo" style={githubLogo} />
+                    <img src='./image/github-logo.png' alt="github-logo" style={githubLogo} />
                     <a href="https://github.com/riumr" className="text-decoration-none text-black ms-1">Github</a>
                     <a href=".." className="text-decoration-none text-black ms-1"> | Blog</a>
                 </p>
