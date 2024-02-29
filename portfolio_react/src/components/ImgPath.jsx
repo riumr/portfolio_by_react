@@ -1,3 +1,1 @@
-export const spaPjtImg = [
-    '../contents/images/reactSpaProject.png',
-]
+export const spaPjtImg = ['./image/spa-collpase-img.png',]
