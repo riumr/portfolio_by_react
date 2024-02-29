@@ -17,7 +17,7 @@ export default function Projects() {
                             projectName="Personal Project" carouselId="" carouselImg={spaPjtImg}
                             contentTitle="SPA 게시판" contentAbout={spaPjtContent} stackContent={spaPjtStack} contentLink=""
                         />
-                        <CollapseBox boxId="spa" boxImgSrc={spaPjtImg}/>
+                        <CollapseBox boxId="spa" boxImgSrc='./image/reactSpaProject.png'/>
 
                     </div>
                     {/* Team Project */}
@@ -58,7 +58,7 @@ const Project = (props) => {
     return (
         <div className="pt-3">
             <h3 className="semibold">{props.projectName}</h3>
-            <div className="d-flex flex-wrap py-2">
+            <div className="d-flex flex-wrap py-2 ps-2">
                 <Carousel carouselId={carouselId} carouselImg={carouselImg}/>
                 <ContentBox title={contentTitle} contentAbout={contentAbout} stackContent={stackContent} link={contentLink}/>
             </div>
