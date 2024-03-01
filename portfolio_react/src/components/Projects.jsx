@@ -5,6 +5,7 @@ import { spaPjtImg } from "./ImgPath"
 import { spaPjtContent,djangoPjtContent,profilePjtContent,textPjtContent } from "./Contents"
 import { spaPjtStack,djangoPjtStack,profilePjtStack,textPjtStack } from "./Contents"
 
+
 export default function Projects() {
     return (
         <div id="projects">
@@ -14,8 +15,8 @@ export default function Projects() {
                     {/* Personal Project */}
                     <div className="pt-3">
                         <Project 
-                            projectName="Personal Project" carouselId="" carouselImg={spaPjtImg}
-                            contentTitle="SPA 게시판" contentAbout={spaPjtContent} stackContent={spaPjtStack} contentLink=""
+                            projectName="Personal Project" carouselId="spaProject" carouselImg='./image/reactSpaProject.png'
+                            contentTitle="SPA 게시판" contentAbout={spaPjtContent} stackContent={spaPjtStack} contentLink="https://github.com/riumr/browse_supabase"
                         />
                         <CollapseBox boxId="spa" boxImgSrc='./image/reactSpaProject.png'/>
 
@@ -23,23 +24,23 @@ export default function Projects() {
                     {/* Team Project */}
                     <div className="pt-3">
                         <Project
-                            projectName="Team Project" carouselId="" carouselImg={spaPjtImg} 
-                            contentTitle="원두판매사이트" contentAbout={djangoPjtContent} stackContent={djangoPjtStack} contentLink=""
+                            projectName="Team Project" carouselId="teamProject" carouselImg='./image/javachip_item.jpg'
+                            contentTitle="원두판매사이트" contentAbout={djangoPjtContent} stackContent={djangoPjtStack} contentLink="https://github.com/riumr/Java-chip"
                         />
                         <CollapseBox boxId="" boxImgSrc=""/>
                     </div>
                     {/* profile page */}
                     <div className="pt-3">
                         <Project
-                            projectName="Profile Page" carouselId="" carouselImg={spaPjtImg} 
-                            contentTitle="포트폴리오" contentAbout={profilePjtContent} stackContent={profilePjtStack} contentLink=""
+                            projectName="Profile Page" carouselId="portfolio" carouselImg='./image/p_1.png'
+                            contentTitle="포트폴리오" contentAbout={profilePjtContent} stackContent={profilePjtStack} contentLink="https://github.com/riumr/riumr.github.io"
                         />
                     </div>
                     {/* Text 분석 프로젝트 */}
                     <div className="pt-3">
                         <Project
-                            projectName="Text Analysis Project" carouselId="" carouselImg={spaPjtImg} 
-                            contentTitle="민원 데이터 시각화" contentAbout={textPjtContent} stackContent={textPjtStack} contentLink=""
+                            projectName="Text Analysis Project" carouselId="textAnalysis" carouselImg='./image/textProject.png'
+                            contentTitle="민원 데이터 시각화" contentAbout={textPjtContent} stackContent={textPjtStack} contentLink="https://github.com/analysistTH/complaintsAnaysis"
                         />
                     </div>
                 </div>
