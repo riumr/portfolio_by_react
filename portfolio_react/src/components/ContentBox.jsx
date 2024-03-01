@@ -10,9 +10,11 @@ export default function ContentBox (props) {
         <span key={index} className="rounded p-1 ms-1 bg-secondary bg-opacity-10">{name}</span>
     ))
     return (
-        <div id="textBox" className="ps-3 mt-2">
+        <div id="text-box" className="ps-3 mt-2">
             <p className="fs-3 mb-0">{title}</p>
-            <a className="text-decoration-none text-dark" href={link}>source</a>
+            <div id="ref-link" class="my-1">
+                <a class="text-decoration-none fw-bold border rounded p-1" href={link}>source</a>
+            </div>
             <div>{description}</div>
             <div className="mt-1">{stack}</div>
         </div>
