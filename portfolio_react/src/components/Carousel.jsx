@@ -19,10 +19,10 @@ export default function Carousel (props) {
         </button>
     )
     
-    const imgSize = {width:'100%'}
-    const carouselImg = (sourceList) => (
+    const imgSize = {width:'100%',height:'225px'}
+    const carouselImg = (imgSrc,imgAlt) => (
         <div>
-            <img src="./image/reactSpaProject.png" alt="github-logo" style={imgSize}/>
+            <img src={imgSrc} alt={imgAlt} style={imgSize}/>
         </div>
         // <div className="carousel-inner">
         //     <div className="carousel-item d-flex">
@@ -34,7 +34,7 @@ export default function Carousel (props) {
     )
     return (
         <div id={carouselId} className="carousel slide border" style={carouselBoxSize}>
-            {carouselImg(imgSource)}
+            {carouselImg(imgSource,carouselId)}
             {/* {carouselHandler("prev","chevron-compact-left.svg")}
             {carouselHandler("next",'chevron-compact-right.svg')} */}
         </div>
