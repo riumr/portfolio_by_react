@@ -20,7 +20,7 @@ body {
   background-color: rgb(230, 229, 229);
 }
 
-#pageUpButton {
+#page-up-button {
   position: fixed;
   bottom: 2.5rem;
   right: 10rem;
@@ -28,4 +28,22 @@ body {
 
 #projects>div>div>div>div>div {
   box-shadow: 0px 0px 7px 2px #EDEDED;
+}
+
+#ref-link>a{
+  color:black;
+}
+
+#ref-link>a:hover {
+  background-color: rgb(42, 42, 42);
+  color:white;
+}
+
+#collpase-button{
+  color:black;
+}
+
+#collpase-button:hover{
+  background-color: rgb(104, 104, 104);
+  color:white;
 }
