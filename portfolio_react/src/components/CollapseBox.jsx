@@ -9,7 +9,7 @@ export default function CollapseBox (props) {
     }
     return(
         <>
-            <div className="btn btn-outline-secondary w-100 py-3">상세내용 보기</div>
+            <div id="collpase-button" className="btn btn-outline-dark w-100 py-3">상세내용 보기</div>
         </>
         // <>
         //     <div className="btn btn-outline-secondary d-flex justify-content-center align-items-center w-100 mt-3"
