@@ -1,7 +1,6 @@
 import Carousel from "./Carousel"
 import ContentBox from "./ContentBox"
 import CollapseBox from "./CollapseBox"
-import { spaPjtImg } from "./ImgPath"
 import { spaPjtContent,djangoPjtContent,profilePjtContent,textPjtContent } from "./Contents"
 import { spaPjtStack,djangoPjtStack,profilePjtStack,textPjtStack } from "./Contents"
 
@@ -18,16 +17,16 @@ export default function Projects() {
                             projectName="Personal Project" carouselId="spaProject" carouselImg='./image/reactSpaProject.png'
                             contentTitle="SPA 게시판" contentAbout={spaPjtContent} stackContent={spaPjtStack} contentLink="https://github.com/riumr/browse_supabase"
                         />
-                        <CollapseBox boxId="spa" boxImgSrc='./image/reactSpaProject.png'/>
+                        <CollapseBox boxId="spaPjt" boxImg='./image/spa-collapse-img.png'/>
 
                     </div>
                     {/* Team Project */}
                     <div className="pt-3">
                         <Project
-                            projectName="Team Project" carouselId="teamProject" carouselImg='./image/javachip_item.jpg'
+                            projectName="Team Project" carouselId="teamProject" carouselImg='./image/javachip-item.jpg'
                             contentTitle="원두판매사이트" contentAbout={djangoPjtContent} stackContent={djangoPjtStack} contentLink="https://github.com/riumr/Java-chip"
                         />
-                        <CollapseBox boxId="" boxImgSrc=""/>
+                        <CollapseBox boxId="teamPjt" boxImg="./image/javachip-item.jpg"/>
                     </div>
                     {/* profile page */}
                     <div className="pt-3">
