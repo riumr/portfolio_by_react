@@ -17,7 +17,7 @@ export default function Projects() {
                             projectName="Personal Project" carouselId="spaProject" carouselImg='./image/reactSpaProject.png'
                             contentTitle="SPA 게시판" contentAbout={spaPjtContent} stackContent={spaPjtStack} contentLink="https://github.com/riumr/browse_supabase"
                         />
-                        <CollapseBox boxId="spaPjt" boxImg='./image/spa-collapse-img.png'/>
+                        {/* <CollapseBox boxId="spaPjt" boxImg='./image/spa-collapse-img.png'/> */}
 
                     </div>
                     {/* Team Project */}
@@ -26,7 +26,7 @@ export default function Projects() {
                             projectName="Team Project" carouselId="teamProject" carouselImg='./image/javachip-item.jpg'
                             contentTitle="원두판매사이트" contentAbout={djangoPjtContent} stackContent={djangoPjtStack} contentLink="https://github.com/riumr/Java-chip"
                         />
-                        <CollapseBox boxId="teamPjt" boxImg="./image/javachip-item.jpg"/>
+                        {/* <CollapseBox boxId="teamPjt" boxImg="./image/javachip-item.jpg"/> */}
                     </div>
                     {/* profile page */}
                     <div className="pt-3">
