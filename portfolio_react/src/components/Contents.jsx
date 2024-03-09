@@ -17,7 +17,8 @@ export const djangoPjtContent = [
 export const profilePjtContent = [
     '인원 : 1명',
     '역할 : 프론트엔드 템플릿 구현 및 내용 구성',
-    '∙ Javascript를 사용하지 않은 프로젝트'
+    '∙ Javascript를 사용하지 않은 프로젝트',
+    '∙ 유지보수성을 향상시키기 위해 React로 refactoring'
 ]
 
 export const textPjtContent = [
@@ -30,6 +31,6 @@ export const spaPjtStack = ['React','supabase','Firebase','Figma']
 
 export const djangoPjtStack = ['HTML','CSS','bootstrap','Django','SQLite','postgresql','Figma','Discord','Notion','AWS EC2']
 
-export const profilePjtStack = ['HTML','CSS','bootstrap','Figma','Github page']
+export const profilePjtStack = ['React','HTML','CSS','bootstrap','Figma','Github page']
 
 export const textPjtStack = ['python','Google colab','Tableu']
