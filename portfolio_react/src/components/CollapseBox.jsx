@@ -34,7 +34,8 @@ export default function CollapseBox (props) {
                     ):(
                         <div style={notCollpased}>
                             <img src={boxImg} alt={boxId} style={imgStyle} />
-                            <iframe src="" width="400" height="400" frameborder="0"></iframe>
+                            {/* <iframe src="https://github.com/riumr/browse_supabase
+" width="1000" height="400" frameborder="0"></iframe> */}
                         </div>
                     )
                 }
