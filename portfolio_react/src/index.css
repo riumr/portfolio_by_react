@@ -30,11 +30,20 @@ body {
   box-shadow: 0px 0px 7px 2px #EDEDED;
 }
 
-#ref-link>a{
+#source-link{
   color:black;
 }
 
-#ref-link>a:hover {
+#source-link:hover {
+  background-color: rgb(42, 42, 42);
+  color:white;
+}
+
+#site-link{
+  color:black;
+}
+
+#site-link:hover {
   background-color: rgb(42, 42, 42);
   color:white;
 }
