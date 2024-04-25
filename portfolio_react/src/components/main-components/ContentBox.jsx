@@ -21,7 +21,7 @@ export default function ContentBox (props) {
         ...sourceStyle,
     };
 
-    if (site==""){
+    if (site===""){
         siteStyle={
             display:'none',
         }

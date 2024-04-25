@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import CategoryGroup from "./components/CategoryGroup";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <CategoryGroup />
       <Main />
+      <Footer/>
     </div>
   );
 }

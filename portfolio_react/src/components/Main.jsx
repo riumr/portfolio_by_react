@@ -1,13 +1,11 @@
-import Skills from "./Skills"
-import Projects from "./Projects"
-import Footer from "./Footer"
+import Skills from "./main-components/Skills"
+import Projects from "./main-components/Projects"
 
 export default function Main() {
     return (
         <>
             <Skills/>
             <Projects/>
-            <Footer/>
         </>
     )
 }

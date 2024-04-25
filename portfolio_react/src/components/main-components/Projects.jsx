@@ -1,8 +1,8 @@
-import Carousel from "./Carousel"
-import ContentBox from "./ContentBox"
-import CollapseBox from "./CollapseBox"
-import { spaPjtContent,djangoPjtContent,profilePjtContent,textPjtContent } from "./Contents"
-import { spaPjtStack,djangoPjtStack,profilePjtStack,textPjtStack } from "./Contents"
+import Carousel from "../main-components/Carousel"
+import ContentBox from "../main-components/ContentBox"
+import CollapseBox from "../main-components/CollapseBox"
+import { spaPjtContent,djangoPjtContent,profilePjtContent,textPjtContent } from "../main-components/Contents"
+import { spaPjtStack,djangoPjtStack,profilePjtStack,textPjtStack } from "../main-components/Contents"
 
 
 export default function Projects() {
