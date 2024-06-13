@@ -31,6 +31,7 @@ export const spaPjtStack = ['React','supabase','Firebase','Figma']
 
 export const djangoPjtStack = ['HTML','CSS','bootstrap','Django','SQLite','postgresql','Figma','Discord','Notion','AWS EC2']
 
-export const profilePjtStack = ['React','HTML','CSS','bootstrap','Figma','Github page']
+export const profilePjtStack = ['React','HTML','CSS','bootstrap']
+    // 'Figma','Github page']
 
 export const textPjtStack = ['python','Google colab','Tableu']

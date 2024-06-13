@@ -1,6 +1,6 @@
 export default function Footer () {
     const referenceLink = {
-        width:'100vw',
+        width:'100%'
     }
     const githubLogo = {
         height:'21px',
