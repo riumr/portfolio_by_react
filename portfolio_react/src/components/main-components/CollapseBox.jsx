@@ -26,7 +26,7 @@ export default function CollapseBox (props) {
 
     return(
         <>
-            <div onClick={collpaseTrigger} id="collpase-button" className="btn btn-outline-dark w-100 py-3">상세내용 보기</div>
+            <div onClick={collpaseTrigger} id="collpase-button" className="btn btn-outline-dark border border-opacity-90 w-100 py-2 mt-2">상세내용 보기</div>
             <div id={boxId}>
                 {
                     isCollpased===true? (
