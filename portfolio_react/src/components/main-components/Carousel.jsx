@@ -2,8 +2,7 @@ export default function Carousel (props) {
     const carouselId = props.carouselId
     const imgSource = props.carouselImg
     const carouselBoxSize = {
-        width:'460px',
-        height:'230px',
+        
     }
  
     const carouselButtonStyle = {
@@ -19,7 +18,7 @@ export default function Carousel (props) {
         </button>
     )
     
-    const imgSize = {width:'100%',height:'225px'}
+    const imgSize = {width:'100%'}
     const carouselImg = (imgSrc,imgAlt) => (
         <div>
             <img src={imgSrc} alt={imgAlt} style={imgSize}/>

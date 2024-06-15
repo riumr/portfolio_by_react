@@ -27,14 +27,14 @@ export default function ContentBox (props) {
         }
     }
     return (
-        <div id="text-box" className="ps-3 mt-2">
+        <div id="text-box" className="w-100 ps-3 mt-2">
             <p className="fs-3 mb-0">{title}</p>
             <div id="ref-link" class="my-1">
                 <a id="source-link" href={link} style={sourceStyle}>source</a>
                 <a id="site-link" href={site} style={siteStyle} className="ms-1">site</a>
             </div>
             <div>{description}</div>
-            <div className="mt-1">{stack}</div>
+            <div className="w-100 mt-1">{stack}</div>
         </div>
     )
 }
