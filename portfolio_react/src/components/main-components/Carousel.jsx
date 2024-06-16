@@ -18,10 +18,10 @@ export default function Carousel (props) {
         </button>
     )
     
-    const imgSize = {width:'100%'}
+
     const carouselImg = (imgSrc,imgAlt) => (
         <div>
-            <img src={imgSrc} alt={imgAlt} style={imgSize}/>
+            <img src={imgSrc} alt={imgAlt} className="w-100 w-md-50 w-lg-25"/>
         </div>
         // <div className="carousel-inner">
         //     <div className="carousel-item d-flex">

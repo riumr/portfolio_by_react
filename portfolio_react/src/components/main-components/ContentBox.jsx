@@ -8,7 +8,7 @@ export default function ContentBox (props) {
         <div key={index}>{content}</div>
     ))
     const stack = stackContent.map((name,index)=>(
-        <span key={index} className="rounded p-1 ms-1 bg-secondary bg-opacity-10">{name}</span>
+        <div key={index} className="rounded p-1 ms-1 mt-1 bg-secondary bg-opacity-10">{name}</div>
     ))
     let sourceStyle = {
         textDecoration: 'none',
@@ -34,7 +34,7 @@ export default function ContentBox (props) {
                 <a id="site-link" href={site} style={siteStyle} className="ms-1">site</a>
             </div>
             <div>{description}</div>
-            <div className="w-100 mt-1">{stack}</div>
+            <div className="d-flex flex-wrap">{stack}</div>
         </div>
     )
 }

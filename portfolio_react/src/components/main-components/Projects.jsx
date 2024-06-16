@@ -24,11 +24,11 @@ export default function Projects() {
                     {/* Team Project */}
                     <div className="pt-3">
                         {/* 글자가 전체 화면의 너비 늘리는 문제 발생 */}
-                        {/* <Project
+                        <Project
                             projectName="Team Project" carouselId="teamProject" carouselImg='./image/javachip-item.jpg'
                             contentTitle="원두판매사이트" contentAbout={djangoPjtContent} stackContent={djangoPjtStack} contentLink="https://github.com/riumr/Java-chip"
                             siteLink=""
-                        /> */}
+                        />
                         {/* <CollapseBox boxId="teamPjt" boxImg="./image/javachip-item.jpg"/> */}
                     </div>
                     {/* profile page */}
