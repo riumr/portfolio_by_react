@@ -23,8 +23,8 @@ export default function Footer () {
                 </p>
                 <p>© Kim tae hyoung. All rights reserved</p>
             </div>
-            <div id="page-up-button" className="fs-2 fw-bold border rounded-circle px-3">
-                <a href="#pageTitle" className="text-decoration-none text-black">↑</a>
+            <div id="page-up-button" className="fs-2 fw-bold border rounded-circle">
+                <a href="#pageTitle" className="text-decoration-none text-black"></a>
             </div>
         </div>
     )
