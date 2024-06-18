@@ -17,7 +17,7 @@ const Category = () =>{
         width:'145px',
     }
     const categoryBlock = categoryList.map((name,index)=>
-        <div key={index} className="ms-3 my-1 py-1 border border-dark rounded fw-semibold" style={categoryStyle}>
+        <div key={index} className="py-1 border border-dark rounded fw-semibold" style={categoryStyle}>
             <a href={`#${name}`} className="text-decoration-none text-black">{name.toUpperCase()}</a>
         </div>
     )
