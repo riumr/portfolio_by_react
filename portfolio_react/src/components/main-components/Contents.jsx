@@ -33,9 +33,19 @@ const textPjtContent = [
 const salePjtContent = [
     '소요기간 : 4주 | 인원 : 4명',
     '역할 : 프론트엔드',
-    '∙ 프로젝트 전체 요약',
-    '∙ 사용한 기술 중 주요한 기술과 성과',
-    '∙ 프로젝트의 의의',
+    // 프로젝트 목적 요약
+    '∙ 도메인 주도 개발 체험',
+    // 사용한 기술과 목적
+    '∙ Figma dev를 사용해서 css copy',
+    '-> 빠른 디자인 가능해짐.',
+    '∙ Figma로 화면설계하는 과정에서 component 구상함',
+    '-> React component를 만들 때 만들어야 하는 요소를 빠르게 식별할 수 있었음',
+    '∙ design system에 대한 고민',
+    '-> grid system:전체 레이아웃. flex system:component',
+    '∙ typescript',
+    '-> 서버와 통신을 위해 데이터 type 단일화 필요',
+    // 프로젝틀를 통해 얻은 점
+    '∙ Jira를 사용한 이슈 보드 관리로 목표에 따라 프로젝트를 진행할 수 있었음',
 ]
 
 const spaPjtStack = ['React','supabase','Firebase','Figma']
