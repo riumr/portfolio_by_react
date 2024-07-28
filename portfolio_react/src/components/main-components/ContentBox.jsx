@@ -13,8 +13,8 @@ export default function ContentBox (props) {
     let sourceStyle = {
         textDecoration: 'none',
         fontWeight: 'bold',
-        border: '1px solid #000',
-        borderRadius: '0.25rem',
+        border: '1px solid black',
+        // borderRadius: '0.25rem',
         padding: '0.25rem',
     }
     let siteStyle = {

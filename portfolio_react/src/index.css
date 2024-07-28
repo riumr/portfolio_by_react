@@ -26,8 +26,9 @@ body {
   right: 10rem;
 }
 
-#projects>div>div>div>div>div {
-  box-shadow: 0px 0px 7px 2px #EDEDED;
+.style-project-box {
+  /* box-shadow: 0px 0px 7px 2px #EDEDED; */
+  border: 1px solid rgb(173, 173, 173);
 }
 
 #source-link{

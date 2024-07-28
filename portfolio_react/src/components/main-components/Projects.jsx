@@ -71,7 +71,7 @@ const Project = (props) => {
     return (
         <div className="pt-3">
             <h3 className="semibold">{props.projectName}</h3>
-            <div className="row py-2 px-2">
+            <div className="style-project-box row py-2 px-2">
                 <Carousel carouselId={carouselId} carouselImg={carouselImg}/>
                 <ContentBox title={contentTitle} contentAbout={contentAbout} stackContent={stackContent} link={contentLink} site={siteLink}/>
             </div>
